@@ -1,0 +1,11 @@
+repo = "helix-editor/helix"
+remote-branch = "master"
+local-branch = "patchy"
+
+pull-requests = [
+  "13430", # vertical picker layout
+  "11497", # rounded corners
+]
+
+# See `patchy gen-patch --help` for more info.
+patches = [ ]
